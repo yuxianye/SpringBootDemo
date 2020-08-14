@@ -12,7 +12,7 @@ import org.hibernate.annotations.SelectBeforeUpdate;
 import com.fasterxml.jackson.annotation.JsonFilter;
 
 @Entity
-@Table(name="yxy_user")
+//@Table(name="yxy_user")
 @DynamicUpdate(true)
 @DynamicInsert(true)
 @SelectBeforeUpdate
