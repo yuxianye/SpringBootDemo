@@ -36,7 +36,7 @@ body {
 	</nav>
 	<div class="container">
 		<div class="starter-template">
-			<h2>登录</h2>
+			<h2>登录${message}</h2>
 			<form class="form-signin" role="form" name="form" action="/login"
 				method="post">
 				<div class="form-group">
